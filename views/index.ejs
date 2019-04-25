@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>express app</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      
+
+    <h1>express app</h1>
+
+    <p><%- data ? JSON.stringify(data) : 'you need to login first <a href="/login">Login</a>' %></p>
+    <p><%- data ? '<a href="/logout">logout</a>':null %></p>
+  </body>
+</html>
